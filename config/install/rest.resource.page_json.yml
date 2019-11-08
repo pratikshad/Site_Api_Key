@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - site_api_key
+id: page_json
+plugin_id: page_json
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

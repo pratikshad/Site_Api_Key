@@ -1,0 +1,6 @@
+# Subscriber to alter site information form.
+services:
+  site_api_key.route_subscriber:
+    class: 'Drupal\site_api_key\Routing\SiteApiKeyRouteSubscriber'
+    tags:
+      - { name: event_subscriber }
